@@ -1,0 +1,13 @@
+.nav-li a{
+  text-decoration: none;
+  display: block;
+}
+
+.nav-li {
+  display: inline-block;
+}
+
+.nav-ul{
+  list-style: none;
+  display: inline;
+}
