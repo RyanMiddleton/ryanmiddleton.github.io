@@ -7,21 +7,31 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, intial-scale=1.0">
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-		<script src="https://kit.fontawesome.com/03c75e8945.js" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://kit.fontawesome.com/03c75e8945.js" crossorigin="anonymous"></script>
+        <script>
+        $(document).ready(function(){
+            $('button').click(function(){
+            $("#div1").fadeIn("slow")
+        });
+        });
+        </script>
 		<link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
-			<nav class="navbar navbar-expand-lg navbar-light rounded" style="background-color:#f2f2f2;">
-				<a href="/" style="color:black; padding:50px 50px">Ryan Middleton</a>
-				<ul class="nav-ul">
-					<li class="nav-li"><a href="#">Experience</a></li>
-					<li class="nav-li"><a href="#">Projects</a></li>
-					<li class="nav-li"><a href="#">Research</a></li>
-					<li class="nav-li"><a href="#">Hackathons</a></li>
-					<li class="nav-li"><a href="#">Articles</a></li>
-				</ul>
-			</nav>
+	<nav class="navbar navbar-expand-lg navbar-light rounded" style="background-color:#f2f2f2;">
+		<a href="/" style="color:black; padding:50px 50px; text-transform: uppercase;">Ryan Middleton</a>
+		<ul class="navbar-nav nav-ul">
+			<li class="nav-li"><a href="#">Experience</a></li>
+			<li class="nav-li"><a href="#">Projects</a></li>
+			<li class="nav-li"><a href="#">Research</a></li>
+			<li class="nav-li"><a href="#">Hackathons</a></li>
+			<li class="nav-li"><a href="#">Articles</a></li>
+		</ul>
+	</nav>
+    <button>Click to fade in boxes</button><br><br>
+    <div id="div1" style="width:80px;height:80px;background-color:red;"</div>
+	<p id="p1">Hello Portfolio</p>
 
-		<p>Hello Portfolio</p>
   </body>
 </html>

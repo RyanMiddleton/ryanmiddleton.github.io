@@ -3,11 +3,15 @@
   display: block;
 }
 
+
 .nav-li {
   display: inline-block;
+  text-transform: uppercase;
 }
 
 .nav-ul{
+  position: relative;
   list-style: none;
   display: inline;
+  float: right;
 }
