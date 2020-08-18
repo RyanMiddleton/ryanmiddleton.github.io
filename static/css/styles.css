@@ -53,6 +53,10 @@
   background-color: #f5f5f5;
 }
 
+.footer-link span{
+    text-decoration: none;
+}
+
 .fa-facebook{ color: #3b5998;
 }
 
@@ -71,7 +75,6 @@
     margin: 7rem;
     margin-top: 20px;
     padding: 1rem;
-    width 85%;
     height: 37.5rem;
     border-radius: 2.5rem;
 }
